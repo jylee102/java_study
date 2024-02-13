@@ -7,7 +7,7 @@ public class IfNestExample {
         start부터 n개의 정수를 랜덤한 숫자로 구한다.
         (int) (Math.random() * n) + start;
          */
-        int score = (int) (Math.random() * 20) + 81; // 81~100까지의 랜점한 숫자를 구한다.
+        int score = (int) (Math.random() * 20) + 81; // 81~100까지의 랜덤한 숫자를 구한다.
         System.out.println("랜덤한 점수: " + score);
 
         String grade;
