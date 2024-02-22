@@ -9,8 +9,8 @@ public class D extends A {
 
     public void method1() {
         // 상속관계일 때 (protected 접근 제한자가 있는 )부모 클래스의 필드와 메소드를 사용할 수 있음
-        this.field = "value";
-        this.method();
+        super.field = "value";
+        super.method();
     }
 
     public void method2() {
